@@ -1,0 +1,321 @@
+Script iniciado en 2022-02-03 11:06:35+01:00 [TERM="xterm-256color" TTY="/dev/pts/200" COLUMNS="183" LINES="38"]
+]0;cvinas@simba: ~[01;32mcvinas@simba[00m:[01;34m~[00m$ git clone /srv/git/prpa
+Clonando en 'prpa'...
+hecho.
+]0;cvinas@simba: ~[01;32mcvinas@simba[00m:[01;34m~[00m$ cd prpa
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ touch ~/prpa/grupo28[K[K_28.txt
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ umask 0002
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ ls -la
+total 252
+drwxrwxr-x 12 cvinas cvinas   4096 feb  3 11:09 [0m[01;34m.[0m
+drwxr-xr-x 10 cvinas cvinas   4096 feb  3 11:07 [01;34m..[0m
+drwxrwxr-x  2 cvinas cvinas   4096 feb  3 11:07 [01;34mauto[0m
+-rw-rw-r--  1 cvinas cvinas      0 feb  3 11:07 datos_03.txt
+-rw-rw-r--  1 cvinas cvinas     17 feb  3 11:07 datos_05.txt
+-rw-rw-r--  1 cvinas cvinas      0 feb  3 11:07 datos_14.txt
+drwxrwxr-x  4 cvinas cvinas   4096 feb  3 11:07 [01;34mejemplos[0m
+drwxrwxr-x  2 cvinas cvinas   4096 feb  3 11:07 [01;34mejercicios[0m
+-rw-rw-r--  1 cvinas cvinas  64390 feb  3 11:07 [01;35mescudo.png[0m
+drwxrwxr-x  2 cvinas cvinas   4096 feb  3 11:07 [01;34mestilo[0m
+drwxrwxr-x  4 cvinas cvinas   4096 feb  3 11:07 [01;34mexamenes[0m
+drwxrwxr-x  8 cvinas cvinas   4096 feb  3 11:07 [01;34m.git[0m
+-rw-rw-r--  1 cvinas cvinas      0 feb  3 11:09 grupo_28.txt
+drwxrwxr-x  3 cvinas cvinas   4096 feb  3 11:07 [01;34mipython[0m
+-rw-rw-r--  1 cvinas cvinas    248 feb  3 11:07 just_ene.aux
+-rw-rw-r--  1 cvinas cvinas   9261 feb  3 11:07 just_ene.log
+-rw-rw-r--  1 cvinas cvinas 112327 feb  3 11:07 just_ene.pdf
+-rw-rw-r--  1 cvinas cvinas   2790 feb  3 11:07 [01;31mjust_ene.synctex.gz[0m
+-rw-rw-r--  1 cvinas cvinas   2287 feb  3 11:07 just_ene.tex
+drwxrwxr-x  4 cvinas cvinas   4096 feb  3 11:07 [01;34mnotebook[0m
+drwxrwxr-x  5 cvinas cvinas   4096 feb  3 11:07 [01;34mpracticas[0m
+drwxrwxr-x  2 cvinas cvinas   4096 feb  3 11:07 [01;34mproblemas[0m
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ ls -la examenes
+total 16
+drwxrwxr-x  4 cvinas cvinas 4096 feb  3 11:07 [0m[01;34m.[0m
+drwxrwxr-x 12 cvinas cvinas 4096 feb  3 11:09 [01;34m..[0m
+drwxrwxr-x  2 cvinas cvinas 4096 feb  3 11:07 [01;34menero_2018[0m
+drwxrwxr-x  3 cvinas cvinas 4096 feb  3 11:07 [01;34mfeb[0m
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ rm -r just*
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ cp -r ejemplos ejemplos_new
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ cd ejemploss[K_new
+]0;cvinas@simba: ~/prpa/ejemplos_new[01;32mcvinas@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cd per[K[Krpa
+bash: cd: prpa: No existe el fichero o el directorio
+]0;cvinas@simba: ~/prpa/ejemplos_new[01;32mcvinas@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cd
+]0;cvinas@simba: ~[01;32mcvinas@simba[00m:[01;34m~[00m$ cd [K[K[Kcd prpa[K[Kcd ~/prpa
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ cd ejemplos_new
+]0;cvinas@simba: ~/prpa/ejemplos_new[01;32mcvinas@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cd. .[K[K[K ..
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ cp escudo-¡[K[K.png ejemplos/escudo.png
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ cp escudo.png ejemplos/escudo.png[C_/escudo.pngn/escudo.pnge/escudo.pngw/escudo.png
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ rm -t[Kr ejemplos_new
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ find . -name ""*"p"y" "[1P"[C | xargs -I {} grep ""r"a"d"i"u"s"[C {}
+def circle(radius):
+    Function that computes the surface of a circle given its radius.
+    radius: float
+      The radius of the circle
+    return math.pi * radius**2
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ cd
+]0;cvinas@simba: ~[01;32mcvinas@simba[00m:[01;34m~[00m$ find . -name ""*"t"e"x"[C
+./prpa/estilo/estilo.tex
+./prpa/ejercicios/hoja3.tex
+./prpa/ejercicios/hoja4.tex
+./prpa/practicas/p2/Informatica2017-2018_Practica2.tex
+./prpa/practicas/p0/datosAsignatura.tex
+./prpa/practicas/p0/practica_0_domino.tex
+./prpa/practicas/p1/datosAsignatura.tex
+./prpa/practicas/p1/practica_1_ajedrez.tex
+./prpa/problemas/datosAsignatura.tex
+./prpa/problemas/hoja1.tex
+./prpa/problemas/hoja3.tex
+./prpa/problemas/hoja2.tex
+./prpa/examenes/feb/curso2016/feb2016.tex
+./prpa/examenes/feb/codigos_simon.tex
+./prpa/examenes/feb/ene2018.tex
+./prpa/examenes/feb/ene2017_simon.tex
+./prpa/examenes/feb/codigos_2018.tex
+]0;cvinas@simba: ~[01;32mcvinas@simba[00m:[01;34m~[00m$ du -sh [K[K[Kh ~/prpa
+4,3M	/home/cvinas/prpa/notebook/img
+20K	/home/cvinas/prpa/notebook/.ipynb_checkpoints
+7,2M	/home/cvinas/prpa/notebook
+12K	/home/cvinas/prpa/auto
+104K	/home/cvinas/prpa/estilo
+36K	/home/cvinas/prpa/ipython/.ipynb_checkpoints
+500K	/home/cvinas/prpa/ipython
+12K	/home/cvinas/prpa/ejercicios
+8,0K	/home/cvinas/prpa/.git/refs/remotes/origin
+12K	/home/cvinas/prpa/.git/refs/remotes
+4,0K	/home/cvinas/prpa/.git/refs/tags
+8,0K	/home/cvinas/prpa/.git/refs/heads
+28K	/home/cvinas/prpa/.git/refs
+8,0K	/home/cvinas/prpa/.git/objects/6c
+8,0K	/home/cvinas/prpa/.git/objects/80
+12K	/home/cvinas/prpa/.git/objects/e8
+8,0K	/home/cvinas/prpa/.git/objects/8d
+16K	/home/cvinas/prpa/.git/objects/9c
+12K	/home/cvinas/prpa/.git/objects/2a
+8,0K	/home/cvinas/prpa/.git/objects/19
+12K	/home/cvinas/prpa/.git/objects/52
+8,0K	/home/cvinas/prpa/.git/objects/b3
+8,0K	/home/cvinas/prpa/.git/objects/c8
+24K	/home/cvinas/prpa/.git/objects/1a
+8,0K	/home/cvinas/prpa/.git/objects/d6
+8,0K	/home/cvinas/prpa/.git/objects/9b
+8,0K	/home/cvinas/prpa/.git/objects/d0
+8,0K	/home/cvinas/prpa/.git/objects/26
+8,0K	/home/cvinas/prpa/.git/objects/35
+16K	/home/cvinas/prpa/.git/objects/fe
+16K	/home/cvinas/prpa/.git/objects/72
+8,0K	/home/cvinas/prpa/.git/objects/df
+12K	/home/cvinas/prpa/.git/objects/a7
+8,0K	/home/cvinas/prpa/.git/objects/d7
+12K	/home/cvinas/prpa/.git/objects/11
+12K	/home/cvinas/prpa/.git/objects/20
+8,0K	/home/cvinas/prpa/.git/objects/16
+8,0K	/home/cvinas/prpa/.git/objects/31
+12K	/home/cvinas/prpa/.git/objects/c9
+12K	/home/cvinas/prpa/.git/objects/3b
+12K	/home/cvinas/prpa/.git/objects/84
+20K	/home/cvinas/prpa/.git/objects/18
+8,0K	/home/cvinas/prpa/.git/objects/f8
+8,0K	/home/cvinas/prpa/.git/objects/f6
+16K	/home/cvinas/prpa/.git/objects/13
+8,0K	/home/cvinas/prpa/.git/objects/c7
+8,0K	/home/cvinas/prpa/.git/objects/54
+12K	/home/cvinas/prpa/.git/objects/24
+12K	/home/cvinas/prpa/.git/objects/8f
+12K	/home/cvinas/prpa/.git/objects/3e
+12K	/home/cvinas/prpa/.git/objects/c4
+8,0K	/home/cvinas/prpa/.git/objects/2c
+8,0K	/home/cvinas/prpa/.git/objects/fa
+12K	/home/cvinas/prpa/.git/objects/17
+8,0K	/home/cvinas/prpa/.git/objects/37
+12K	/home/cvinas/prpa/.git/objects/01
+8,0K	/home/cvinas/prpa/.git/objects/b1
+8,0K	/home/cvinas/prpa/.git/objects/a8
+8,0K	/home/cvinas/prpa/.git/objects/93
+8,0K	/home/cvinas/prpa/.git/objects/64
+12K	/home/cvinas/prpa/.git/objects/e7
+12K	/home/cvinas/prpa/.git/objects/e6
+8,0K	/home/cvinas/prpa/.git/objects/98
+8,0K	/home/cvinas/prpa/.git/objects/af
+12K	/home/cvinas/prpa/.git/objects/30
+8,0K	/home/cvinas/prpa/.git/objects/14
+16K	/home/cvinas/prpa/.git/objects/c5
+20K	/home/cvinas/prpa/.git/objects/58
+8,0K	/home/cvinas/prpa/.git/objects/73
+12K	/home/cvinas/prpa/.git/objects/3f
+12K	/home/cvinas/prpa/.git/objects/79
+12K	/home/cvinas/prpa/.git/objects/bb
+16K	/home/cvinas/prpa/.git/objects/36
+16K	/home/cvinas/prpa/.git/objects/38
+12K	/home/cvinas/prpa/.git/objects/1c
+12K	/home/cvinas/prpa/.git/objects/4c
+8,0K	/home/cvinas/prpa/.git/objects/b0
+8,0K	/home/cvinas/prpa/.git/objects/e4
+8,0K	/home/cvinas/prpa/.git/objects/f9
+8,0K	/home/cvinas/prpa/.git/objects/ef
+8,0K	/home/cvinas/prpa/.git/objects/e0
+44K	/home/cvinas/prpa/.git/objects/e9
+12K	/home/cvinas/prpa/.git/objects/6e
+8,0K	/home/cvinas/prpa/.git/objects/92
+8,0K	/home/cvinas/prpa/.git/objects/eb
+16K	/home/cvinas/prpa/.git/objects/86
+8,0K	/home/cvinas/prpa/.git/objects/4b
+12K	/home/cvinas/prpa/.git/objects/23
+8,0K	/home/cvinas/prpa/.git/objects/ce
+8,0K	/home/cvinas/prpa/.git/objects/33
+8,0K	/home/cvinas/prpa/.git/objects/f0
+8,0K	/home/cvinas/prpa/.git/objects/53
+8,0K	/home/cvinas/prpa/.git/objects/87
+8,0K	/home/cvinas/prpa/.git/objects/02
+12K	/home/cvinas/prpa/.git/objects/44
+8,0K	/home/cvinas/prpa/.git/objects/96
+12K	/home/cvinas/prpa/.git/objects/0b
+8,0K	/home/cvinas/prpa/.git/objects/b6
+12K	/home/cvinas/prpa/.git/objects/3a
+8,0K	/home/cvinas/prpa/.git/objects/0f
+8,0K	/home/cvinas/prpa/.git/objects/d3
+8,0K	/home/cvinas/prpa/.git/objects/90
+8,0K	/home/cvinas/prpa/.git/objects/1b
+8,0K	/home/cvinas/prpa/.git/objects/7f
+12K	/home/cvinas/prpa/.git/objects/81
+8,0K	/home/cvinas/prpa/.git/objects/6b
+12K	/home/cvinas/prpa/.git/objects/15
+8,0K	/home/cvinas/prpa/.git/objects/f2
+8,0K	/home/cvinas/prpa/.git/objects/77
+8,0K	/home/cvinas/prpa/.git/objects/ad
+12K	/home/cvinas/prpa/.git/objects/cc
+8,0K	/home/cvinas/prpa/.git/objects/d8
+8,0K	/home/cvinas/prpa/.git/objects/da
+12K	/home/cvinas/prpa/.git/objects/76
+8,0K	/home/cvinas/prpa/.git/objects/59
+12K	/home/cvinas/prpa/.git/objects/f3
+8,0K	/home/cvinas/prpa/.git/objects/50
+8,0K	/home/cvinas/prpa/.git/objects/7d
+12K	/home/cvinas/prpa/.git/objects/ba
+8,0K	/home/cvinas/prpa/.git/objects/85
+12K	/home/cvinas/prpa/.git/objects/a0
+12K	/home/cvinas/prpa/.git/objects/ee
+16K	/home/cvinas/prpa/.git/objects/ec
+8,0K	/home/cvinas/prpa/.git/objects/e1
+12K	/home/cvinas/prpa/.git/objects/8c
+8,0K	/home/cvinas/prpa/.git/objects/1e
+12K	/home/cvinas/prpa/.git/objects/83
+8,0K	/home/cvinas/prpa/.git/objects/04
+12K	/home/cvinas/prpa/.git/objects/28
+8,0K	/home/cvinas/prpa/.git/objects/7c
+8,0K	/home/cvinas/prpa/.git/objects/2e
+8,0K	/home/cvinas/prpa/.git/objects/40
+8,0K	/home/cvinas/prpa/.git/objects/cb
+12K	/home/cvinas/prpa/.git/objects/dd
+8,0K	/home/cvinas/prpa/.git/objects/39
+8,0K	/home/cvinas/prpa/.git/objects/b4
+12K	/home/cvinas/prpa/.git/objects/5f
+8,0K	/home/cvinas/prpa/.git/objects/8b
+8,0K	/home/cvinas/prpa/.git/objects/dc
+8,0K	/home/cvinas/prpa/.git/objects/46
+8,0K	/home/cvinas/prpa/.git/objects/4f
+8,0K	/home/cvinas/prpa/.git/objects/67
+8,0K	/home/cvinas/prpa/.git/objects/be
+8,0K	/home/cvinas/prpa/.git/objects/5c
+12K	/home/cvinas/prpa/.git/objects/08
+8,0K	/home/cvinas/prpa/.git/objects/63
+12K	/home/cvinas/prpa/.git/objects/00
+8,0K	/home/cvinas/prpa/.git/objects/a2
+8,0K	/home/cvinas/prpa/.git/objects/d4
+16K	/home/cvinas/prpa/.git/objects/61
+8,0K	/home/cvinas/prpa/.git/objects/91
+12K	/home/cvinas/prpa/.git/objects/9e
+20K	/home/cvinas/prpa/.git/objects/82
+8,0K	/home/cvinas/prpa/.git/objects/bd
+12K	/home/cvinas/prpa/.git/objects/60
+12K	/home/cvinas/prpa/.git/objects/41
+8,0K	/home/cvinas/prpa/.git/objects/9d
+8,0K	/home/cvinas/prpa/.git/objects/0c
+12K	/home/cvinas/prpa/.git/objects/bf
+12K	/home/cvinas/prpa/.git/objects/ae
+8,0K	/home/cvinas/prpa/.git/objects/e2
+16K	/home/cvinas/prpa/.git/objects/ac
+8,0K	/home/cvinas/prpa/.git/objects/bc
+8,0K	/home/cvinas/prpa/.git/objects/25
+8,0K	/home/cvinas/prpa/.git/objects/fd
+12K	/home/cvinas/prpa/.git/objects/d2
+12K	/home/cvinas/prpa/.git/objects/f4
+4,0K	/home/cvinas/prpa/.git/objects/info
+12K	/home/cvinas/prpa/.git/objects/47
+16M	/home/cvinas/prpa/.git/objects/pack
+12K	/home/cvinas/prpa/.git/objects/f1
+8,0K	/home/cvinas/prpa/.git/objects/8a
+8,0K	/home/cvinas/prpa/.git/objects/65
+12K	/home/cvinas/prpa/.git/objects/d9
+17M	/home/cvinas/prpa/.git/objects
+52K	/home/cvinas/prpa/.git/hooks
+4,0K	/home/cvinas/prpa/.git/branches
+8,0K	/home/cvinas/prpa/.git/logs/refs/remotes/origin
+12K	/home/cvinas/prpa/.git/logs/refs/remotes
+8,0K	/home/cvinas/prpa/.git/logs/refs/heads
+24K	/home/cvinas/prpa/.git/logs/refs
+32K	/home/cvinas/prpa/.git/logs
+8,0K	/home/cvinas/prpa/.git/info
+18M	/home/cvinas/prpa/.git
+36K	/home/cvinas/prpa/ejemplos/referencias/matrices
+76K	/home/cvinas/prpa/ejemplos/referencias
+12K	/home/cvinas/prpa/ejemplos/primos
+176K	/home/cvinas/prpa/ejemplos
+204K	/home/cvinas/prpa/practicas/p2
+128K	/home/cvinas/prpa/practicas/p0
+148K	/home/cvinas/prpa/practicas/p1
+484K	/home/cvinas/prpa/practicas
+20K	/home/cvinas/prpa/problemas
+212K	/home/cvinas/prpa/examenes/feb/curso2016
+276K	/home/cvinas/prpa/examenes/feb
+1,6M	/home/cvinas/prpa/examenes/enero_2018
+1,9M	/home/cvinas/prpa/examenes
+28M	/home/cvinas/prpa
+]0;cvinas@simba: ~[01;32mcvinas@simba[00m:[01;34m~[00m$ cd examenes/feb~/prpaexamenes/feb/examenes/feb
+]0;cvinas@simba: ~/prpa/examenes/feb[01;32mcvinas@simba[00m:[01;34m~/prpa/examenes/feb[00m$ tail -20 ene2018.tex
+\lstinline{\"la\"}, \lstinline{\"mancha\"}, \lstinline{\"de\"}, \lstinline{\"cuyo\"} y \lstinline{\"nombre\"}.
+Para distinguir si un carácter es una letra o un signo de puntuación o separador puedes suponer definida la siguiente función:
+  \InsertChunk{def_is_letter}
+
+Escribe una función en Python que dada una cadena de caracteres devuelva la lista de las palabras que contiene.
+
+
+  \end{question}
+
+
+
+
+\end{shortanswer}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+]0;cvinas@simba: ~/prpa/examenes/feb[01;32mcvinas@simba[00m:[01;34m~/prpa/examenes/feb[00m$ tail -20 ene2018.tex[1P[1P[1P[1P[1@h[1@e[1@a[1@d
+\documentclass[10pt]{examdesign}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage{listings}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumerate}
+
+\lstset{
+  language=Python,
+  frame=single,
+  basicstyle=\sffamily,
+  showstringspaces=false
+  %basicstyle=\ttfamily,
+}
+
+\NumberOfVersions{4} %Poner a 2 en la versión final
+\NoRearrange % Eliminar para generar el examen definitivo
+\ContinuousNumbering
+\IncludeFromFile{codigos_2018.tex}
+]0;cvinas@simba: ~/prpa/examenes/feb[01;32mcvinas@simba[00m:[01;34m~/prpa/examenes/feb[00m$ cd ..
+]0;cvinas@simba: ~/prpa/examenes[01;32mcvinas@simba[00m:[01;34m~/prpa/examenes[00m$ cd ..
+]0;cvinas@simba: ~/prpa[01;32mcvinas@simba[00m:[01;34m~/prpa[00m$ exit
+
+Script terminado en 2022-02-03 11:30:52+01:00 [CÓDIGO_SALIDA_ORDEN="0"]
